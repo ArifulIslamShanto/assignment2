@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+
+
+section{
+ background-color: white;
+background-image: url(../images/p2.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: 90%;
+background-position: center,bottom;
+
+}
+header{ 
+	
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+
+
+}
+div{
+	width: 20%;
+    float: left;
+
+}
+
+
+.logo{
+	color: #185c8c;
+    font-size: 30px;
+   text-decoration:none;
+    font-weight: bold;
+
+}
+
+nav{
+	width: 80%;
+    float: right;
+
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	text-decoration-line: none;
+	text-transform: uppercase;
+	color: #185c8c; 
+	font-size: 18px;
+	padding: 18px;
+	transition-duration: 0.5ss;
+	border-radius: 30px;
+
+}
+nav ul li a:hover{
+	color: white;
+	background-color:#3fa9f5; 
+}
+	
+p{
+	text-align: center;}
+
+
